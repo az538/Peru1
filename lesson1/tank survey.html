@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tanks Survey</title>
+  </head>
+  <style>
+    td,
+    th {
+      border-style: solid;
+      border-collapse: collapse;
+      border-style: double;
+    }
+    h1,
+    th,
+    td,
+    thead,
+    tbody,
+    table,
+    input,
+    .sans-serif {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>Tanks</h1>
+    <table style="width: 50%;">
+      <thead>
+        <tr>
+          <th>Tank</th>
+          <th>Armour</th>
+          <th>Top Speed</th>
+          <th>Type</th>
+          <th>Crew</th>
+          <th>Tank Gun</th>
+          <th>Weight</th>
+          <th>Engine</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>T-34</td>
+          <td>2.36 inches</td>
+          <td>32 mph</td>
+          <td>Medium</td>
+          <td>4</td>
+          <td>3 inches</td>
+          <td>26 tons</td>
+          <td>Model V-2-34 38.8 L V12 Diesel engine of 500 hp</td>
+        </tr>
+        <tr>
+          <td>KV-1</td>
+          <td>2.95276 inches</td>
+          <td>25 mph</td>
+          <td>Heavy</td>
+          <td>5</td>
+          <td>3 inches</td>
+          <td>100 tons</td>
+          <td>600 hp V-2K</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Survey</h2>
+    <p>Which one do you like more?</p>
+    <input type="radio" name="gender" value="KV-1" /> KV-1<br />
+    <input type="radio" name="gender" value="T-34" /> T-34<br />
+    <input type="submit" value="Submit" />
+    <footer><h3>Credits</h3></footer>
+    <p>Wikipedia and W3 Schools</p>
+  </body>
+</html>
